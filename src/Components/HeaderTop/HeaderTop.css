@@ -1,0 +1,11 @@
+.customLinkStyle {
+  text-decoration: none;
+  color: black;
+}
+.customLinkStyle:hover {
+  color: black;
+  text-decoration: underline;
+}
+.flagImage {
+  width: 1.5em;
+}
