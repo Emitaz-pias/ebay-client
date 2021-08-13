@@ -40,9 +40,11 @@ const HeaderTop = () => {
           </a>
         </p>
       </div>
-      <div className="d-flex align-items-center">
-        <img className="flagImage" src={countryFlag} alt="" />
-        <p>ship to</p>
+      <div className="d-flex justify-content-center align-items-center">
+        <img title="ship to" className="flagImage " src={countryFlag} alt="" />
+        <a title="ship to" href=".">
+          ship to
+        </a>
       </div>
     </section>
   );
