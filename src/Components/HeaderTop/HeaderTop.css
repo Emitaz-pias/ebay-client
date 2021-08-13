@@ -1,3 +1,6 @@
+.headerTopSection {
+  margin: 0px 0px !important;
+}
 .customLinkStyle {
   text-decoration: none;
   color: black;
@@ -10,4 +13,7 @@
   width: 2em;
   height: 2em;
   cursor: pointer;
+}
+.dropDown:hover .dropDownContent {
+  display: block;
 }
